@@ -123,7 +123,7 @@ To run the application locally:
 npm start
 ```
 
-The server will start on `http://localhost:4001` (or the port you set in `.env`).
+The server will start on `http://localhost:5500` (or the port you set in `.env`).
 
 ### Testing
 
@@ -156,8 +156,9 @@ TaskMaster includes basic security features to ensure data integrity and protect
 
 I deployed to render
 
-Ensure that your environment variables are set in the Fly.io dashboard.
-
+1. Set up a render account, connect with GitHub and select the repository
+2. Select web services on your dashboard and ensure you put your root folder after selecting this repository
+3. Enter the build command and start command like you do in your terminal and deploy.
 ---
 
 ## Contributing
@@ -166,7 +167,7 @@ Contributions are welcome! Please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
+3. Commit your changes (`git commit -m "Add new feature"`).
 4. Push the branch (`git push origin feature-branch`).
 5. Open a Pull Request.
 

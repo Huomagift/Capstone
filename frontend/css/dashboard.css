@@ -10,7 +10,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #007bff;
+    background-color: #DC4C3E;
     color: #fff;
 }
 
@@ -28,7 +28,7 @@ header .btn {
 
 /* Edit Button */
 button.edit {
-    background-color: #007bff;
+    background-color: #DC4C3E;
     color: white;
     min-width: 80px;
     padding: 0.5rem;
@@ -37,13 +37,13 @@ button.edit {
 }
 
 button.edit:hover {
-    background-color: #0056b3;
+    background-color: #a23e35;
 }
 
 /* Cancel Button (Specific for Modals) */
 button#close-modal-btn {
-    background-color: #dc3545; /* Red background for cancel */
-    color: white;
+    background-color: #F5F5F5; /* Red background for cancel */
+    color: #333;
 }
 
 button#close-modal-btn:hover {
@@ -52,7 +52,7 @@ button#close-modal-btn:hover {
 
 /* Delete Button */
 button.delete {
-    background-color: #dc3545;
+    background-color: red;
     color: white;
     min-width: 80px;
     padding: 0.5rem;
@@ -67,7 +67,7 @@ button.delete:hover {
 
 /* Logout Button */
 header .btn#logout-btn {
-    background-color: #dc3545;
+    background-color: red;
     color: #fff;
     transition: background-color 0.3s ease;
 }
@@ -105,7 +105,7 @@ header .btn#logout-btn:hover {
 }
 
 .btn {
-    background-color: #007bff;
+    background-color: #DC4C3E;
     color: #fff;
     padding: 0.5rem 1rem;
     border: none;
@@ -115,7 +115,7 @@ header .btn#logout-btn:hover {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #a23e35;
 }
 
 /* Task Table */
@@ -128,7 +128,7 @@ header .btn#logout-btn:hover {
 }
 
 .tasks-table thead {
-    background-color: #007bff;
+    background-color: #DC4C3E;
     color: #fff;
 }
 
@@ -151,15 +151,15 @@ header .btn#logout-btn:hover {
 
 /* Priority Colors */
 .tasks-table .low-priority {
-    background-color: #d4edda; /* Green for low priority */
+    background-color: #6ff28e; /* Green for low priority */
 }
 
 .tasks-table .medium-priority {
-    background-color: #ffeeba; /* Yellow for medium priority */
+    background-color: #f0cc5f; /* Yellow for medium priority */
 }
 
 .tasks-table .high-priority {
-    background-color: #f8d7da; /* Red for high priority */
+    background-color: #e0303f; /* Red for high priority */
 }
 
 /* Task Actions */
@@ -205,11 +205,11 @@ header .btn#logout-btn:hover {
 
 .modal-content {
     background-color: #fff;
-    margin: 15% auto;
+    margin: 5% auto;
     padding: 2rem;
     border: 1px solid #888;
-    width: 50%;
-    border-radius: 10px;
+    width: 25%;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -256,7 +256,7 @@ header .btn#logout-btn:hover {
 }
 
 .tasks-table th {
-    background-color: #007bff;
+    background-color: #DC4C3E;
     color: white;
     position: sticky;
     top: 0;
@@ -299,7 +299,7 @@ header .btn#logout-btn:hover {
 
 /* Modal Textarea Styling */
 textarea {
-    width: 100%;
+    width: 95%;
     max-width: 100%;
     height: 100px;
     padding: 0.5rem;

@@ -1,6 +1,6 @@
 import { apiRequest, getToken } from './utils.js';
 
-const apiUrl = 'https://task-manager-yh6f.onrender.com';
+const apiUrl = 'https://capstone-86v8.onrender.com';
 
 // Handle task creation form submission
 document.getElementById('create-task-form').addEventListener('submit', async (e) => {

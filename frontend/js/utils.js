@@ -1,4 +1,5 @@
-const apiUrl = 'https://task-manager-yh6f.onrender.com'; // Base URL for the API
+// const apiUrl = 'https://task-manager-yh6f.onrender.com'; // Base URL for the API
+const apiUrl = 'https://capstone-86v8.onrender.com'; // Base URL for the API
 
 // Generic GET request
 async function getData(endpoint, token = '') {

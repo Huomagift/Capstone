@@ -4,7 +4,8 @@ Video To my Presentation:
 
 # TaskMaster
 
-TaskMaster is a web-based task management application that allows users to efficiently create, view, update, delete, and filter tasks. Users can also search for tasks based on specific keywords. This application leverages MongoDB for data storage and implements secure user authentication using JWT, bcrypt, and Express Validator. Additionally, it includes protection against XSS and SQL injection attacks.
+**TaskMaster** is a web-based task management application designed to help users efficiently manage their tasks. The platform allows users to create, view, update, delete, and filter tasks with ease. A robust search feature enables finding tasks using specific keywords. 
+The application uses **MongoDB** for secure and scalable data storage, with user authentication powered by **JWT** and **bcrypt**, ensuring strong security. Input validation is handled by **Express Validator**, while protection against **XSS** and **SQL injection** ensures data safety and system integrity. TaskMaster delivers a secure and seamless task management experience.
 
 ## Table of Contents
 - [Features](#features)
